@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../../components/imgs/logo.jpg";
 import close from "../imgs/close (1).jpg";
 const Navber = () => {
-    const [toggle , setToggle] = useState(true)
+    const [toggle , setToggle] = useState(false)
     return (
         <div className="fixed top-0 right-0 left-0 bg-[#282C33]">
             <div className="px-5 max-w-[1560px] mx-auto flex items-center justify-between my-2 pt-6">

@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navber from './components/Navber/Navber'
+import Projects from './components/ProjectsSection/Projects'
 import About from './components/TopSectionAbout/About'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className='bg-[#282C33]'>
       <Navber />
       <About  />
+      <Projects />
     </div>
   )
 }
