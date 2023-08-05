@@ -1,6 +1,10 @@
+
 import './Projects.css';
+import projects from "../../../public/projects.json"
+import ProjectsCard from '../../components/ProjectsCard/ProjectsCard';
 
 const Projects = () => {
+
     return (
         <>
             <div className='px-5 max-w-[1560px] mx-auto py-10'>
@@ -22,6 +26,15 @@ const Projects = () => {
                 </div>
 
                 {/* bottom */}
+                <div className='flex justify-between'>
+                    {projects.map((project) => { 
+                        return (
+                            <>
+                                <ProjectsCard  project = {project}></ProjectsCard>
+                            </>
+                        )
+                    })}
+                </div>
             </div>
         </>
     );

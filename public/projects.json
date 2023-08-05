@@ -1,0 +1,25 @@
+
+[
+    {
+      "id": 1,
+      "img": "../src/assets/images/chef-and-food-recipe.jpg",
+      "language": ["html", "css", "javascript"],
+      "title": "learn photography",
+      "disc": "manecraft"
+    },
+    {
+      "id": 2,
+      "img": "../src/assets/images/learn-photography.jpg",
+      "language": ["html", "css", "javascript"],
+      "title": "toy-truck",
+      "disc": "manecraft"
+    },
+    {
+      "id": 3,
+      "img": "../src/assets/images/toy-truck.jpg",
+      "language": ["html", "css", "javascript"],
+      "title": "chef and food house",
+      "disc": "manecraft"
+    }
+  ]
+  
