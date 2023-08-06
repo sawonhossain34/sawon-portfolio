@@ -2,24 +2,24 @@
 [
     {
       "id": 1,
-      "img": "../src/assets/images/chef-and-food-recipe.jpg",
-      "language": ["html", "css", "javascript"],
+      "img": "../src/assets/images/learn-photography.jpg",
+      "language": ["html","tailwind CSS", "javascript","react js", "Express js", "MongoDb"],
       "title": "learn photography",
-      "disc": "manecraft"
+      "disc": "Dashboard, slider, PopularClass and PopularInstructor"
     },
     {
       "id": 2,
-      "img": "../src/assets/images/learn-photography.jpg",
+      "img": "../src/assets/images/toy-truck.jpg",
       "language": ["html", "css", "javascript"],
       "title": "toy-truck",
-      "disc": "manecraft"
+      "disc": "navigationBer, responsive footer slider imgGallery other 2 section"
     },
     {
       "id": 3,
-      "img": "../src/assets/images/toy-truck.jpg",
+      "img": "../src/assets/images/chef-and-food-recipe.jpg",
       "language": ["html", "css", "javascript"],
       "title": "chef and food house",
-      "disc": "manecraft"
+      "disc": "another chef and chef details"
     }
   ]
   

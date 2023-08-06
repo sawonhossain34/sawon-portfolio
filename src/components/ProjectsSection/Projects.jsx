@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <>
-            <div className='px-5 max-w-[1560px] mx-auto py-10'>
+            <div className='px-5 max-w-[1560px] mx-auto mt-20 py-32'>
                 {/* top */}
                 <div className='flex justify-between items-center gap-5'>
                     {/* left */}
@@ -26,7 +26,7 @@ const Projects = () => {
                 </div>
 
                 {/* bottom */}
-                <div className='flex justify-between'>
+                <div className='flex flex-wrap justify-between gap-4 my-12'>
                     {projects.map((project) => { 
                         return (
                             <>

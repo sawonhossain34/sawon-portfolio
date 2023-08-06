@@ -1,18 +1,20 @@
 
 
-const ProjectsCard = ({project}) => {
-    const {img, language, title, disc} = project;
+const ProjectsCard = ({ project }) => {
+    const { img, language, title, disc } = project;
     return (
         <>
-            <div className="border border-[#ABB2BF] p-0">
+            <div className="border w-[95%] mx-auto mt-2 md:w-[45%] lg:w-[30%] border-[#ABB2BF] p-0">
                 {/* img  */}
-                <div>
-                    <img src={img} alt="" />
+                <div  style={{ width: "100%" }}>
+                    <img className="w-full" src={img} alt="" style={{
+                        height: "200px",
+                    }} />
                 </div>
                 {/* skills */}
-                <div className="flex gap-2 p-2 border-y border-[#ABB2BF]">
+                <div className="flex gap-2 p-2 flex-wrap border-y border-[#ABB2BF]">
                     {language.map((lan, index) => {
-                        return <span key={index}>{lan}</span>;
+                        return <span className="text-[#ABB2BF]" key={index}>{lan}</span>;
                     })}
                 </div>
                 {/* disc */}
@@ -21,7 +23,7 @@ const ProjectsCard = ({project}) => {
                     <p className="py-4 text-[#ABB2BF]">{disc}</p>
                     {/* btn */}
                     <div className="">
-                        <button className="py-2 px-4 button button-[#C778DD] hover:bg-[#C778DD33] duration-150">Live {"<"}~{">"}</button>
+                        <button className="py-2 px-4 text-white button button-[#C778DD] hover:bg-[#C778DD33] duration-150">Live {"<"}~{">"}</button>
                     </div>
                 </div>
             </div>
