@@ -12,10 +12,10 @@ const Skills = () => {
         <>
             <div className="px-5 max-w-[1560px] mx-auto mt-20 py-10">
                 {/* top */}
-                <div className="mb-10">
+                <div className="mb-12">
                     <div className="text-white w-2/3 font-medium text-[32px] flex items-center gap-2">
-                        <div className=" text-[#C778DD]">
-                            <span>#</span>Skills
+                        <div className=" ">
+                            <span className=" text-[#C778DD]">#</span>Skills
                         </div>
                         <div className="line w-1/3 h-px bg-[#C778DD]"></div>
                     </div>
